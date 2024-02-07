@@ -4,7 +4,7 @@
 
   tasks:
     - name : Ping
-      ping
+      ping:
 
     - name: Hello World
       debug:
