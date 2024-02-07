@@ -1,0 +1,11 @@
+---
+- name: My first playbook with awx
+  hosts: all
+
+  tasks:
+    - name : Ping
+      ping
+
+    - name: Hello World
+      debug:
+        msg : "Hello World"
